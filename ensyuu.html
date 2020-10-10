@@ -1,0 +1,108 @@
+@charset "utf-8"; /* リセットcss */ html, body, div, span, object, iframe, h1,
+h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul,
+li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th,
+td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0;
+border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background:
+transparent; } body { line-height: 1; } article, aside, details, figcaption,
+figure, footer, header, hgroup, menu, nav, section { display: block; } nav ul {
+list-style: none; } blockquote, q { quotes: none; } blockquote:before,
+blockquote:after, q:before, q:after { content: ""; content: none; } a { margin:
+0; padding: 0; font-size: 100%; vertical-align: baseline; background:
+transparent; } /* change colours to suit your needs */ ins { background-color:
+#ff9; color: #000; text-decoration: none; } /* change colours to suit your needs
+*/ mark { background-color: #ff9; color: #000; font-style: italic; font-weight:
+bold; } del { text-decoration: line-through; } abbr[title], dfn[title] {
+border-bottom: 1px dotted; cursor: help; } table { border-collapse: collapse;
+border-spacing: 0; } /* change border colour to suit your needs */ hr { display:
+block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0;
+padding: 0; } input, select { vertical-align: middle; } /* 共通のスタイル */
+.section-title { font-size: 30px; font-weight: bold; margin: 30px 0; text-align:
+center; } img { display: block; width: 100%; } .wrap { width: 80%; margin: 0
+auto 50px; } .flex { display: flex; align-items: center; flex-wrap: wrap; }
+.between { justify-content: space-between; } .around { justify-content:
+space-around; } /* header */ header { height: 70px; background: #000; }
+.header-logo { font-size: 20px; font-weight: bold; margin-left: 35px; color:
+#f2f2f2; line-height: 70px; } .header-nav li { display: inline-block;
+margin-right: 35px; font-size: 16px; } .header-nav a { color: #f2f2f2; } /*
+eyecatch */ #eyecatch { height: 600px; background: url(../img/eyecatch.jpg)
+no-repeat; height: 1300px; background-size: cover; background-position: center;
+position: relative; } #eyecatch p { position: absolute; top: 70%; left: 20%;
+transform: translate(-50%, -50%); font-size: 30px; font-style: italic;
+font-weight: bold; color: #ccc; line-height: 1; } #eyecatch .card { position:
+absolute; top: 90%; left: 70%; transform: translate(-50%, -50%); font-size:
+15px; font-weight: bold; line-height: 1; } #eyecatch .card { width: 572px;
+height: 10px; padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+background-color: white; border-radius: 3px; transition: 0.3s; } #eyecatch .text
+{ padding: 7px 0; font-size: 14px; } #eyecatch .link { padding: 10px 20px; /*
+上下に5px、左右に20px */ font-size: 14px; color: white; background-color: black;
+text-decoration: none; /* テキストのスタイルを消す */ cursor: pointer; border:
+1px black solid; /* 境界線を引く */ border-radius: 3px; /* 要素の角を丸くする */
+transition: 0.4s ease; /* スタイルが変化する時間 */ } #eyecatch .link {
+position: absolute; top: 90%; left: 85%; transform: translate(-50%, -50%);
+font-size: 15px; font-weight: bold; line-height: 1; } /* mission */ #mission {
+height: 600px; background: #000000 no-repeat; height: 500px;
+background-position: center; position: relative; } #mission img { width: 600px;
+height: 399px; position: absolute; } #mission .card { width: 654px; height:
+130px; padding: 20px 12px 10px; /* 上20px 左右12px 下10px */ border-radius: 3px;
+transition: 0.3s; } #mission .text { padding: 10px 0; font-size: 20px; color:
+white; font-weight: bold; line-height: 30px; } #mission .section-title {
+padding: 40px 0; margin: 0; } #mission .form { width: 70%; margin: 0 auto; } /*
+background white */ #background2 { height: 600px; background: white no-repeat;
+height: 100px; background-position: center; position: relative; } /* service */
+#service { height: 600px; background: #e5e5e5 no-repeat; height: 1392px;
+background-position: center; position: relative; } #service h1 { position:
+absolute; top: 5%; left: 50%; transform: translate(-50%, -50%); font-size: 35px;
+font-style: italic; font-weight: bold; color: black; line-height: 1; text-align:
+center; } #service img { width: 600px; height: 399px; } #service .card { width:
+572px; height: 370px; padding: 20px 40px 10px; /* 上20px 左右12px 下10px */
+background-color: white; border-radius: 3px; transition: 0.3s; } #service .text
+{ padding: 10px 0; text-align: left; margin: 90px 0; font-size: 20px; color:
+black; font-style: italic; font-weight: center; line-height: 30px; } #service
+.link { padding: 5px 20px; /* 上下に5px、左右に20px */ font-size: 14px; color:
+black; text-decoration: none; /* テキストのスタイルを消す */ cursor: pointer;
+border: 1px black solid; /* 境界線を引く */ border-radius: 3px; /*
+要素の角を丸くする */ transition: 0.4s ease; /* スタイルが変化する時間 */ }
+#service .link:hover { color: black; background: black; } #service .link {
+position: absolute; top: 70%; left: 70%; transform: translate(-50%, -50%);
+font-size: 15px; font-weight: bold; line-height: 1; } /* about */ #about {
+height: 650px; background: white no-repeat; background-position: center;
+position: relative; } #about h1 { position: absolute; top: 10%; left: 50%;
+transform: translate(-50%, -50%); font-size: 35px; font-style: italic;
+font-weight: bold; color: black; line-height: 1; text-align: center; } #about
+img { width: 703px; height: 300px; } #about .logo3 { position: absolute; top:
+30%; left: 50%; transform: translate(-50%, -50%); font-size: 35px; font-style:
+italic; font-weight: bold; color: #ccc; line-height: 1; text-align: center; }
+#about .link { padding: 50px 600px; /* 上下に5px、左右に20px */ font-size: 30px;
+color: white; background-color: black; text-decoration: none; /*
+テキストのスタイルを消す */ cursor: pointer; } #about .link { position:
+absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); white-space:
+nowrap; } #about .logo1 { position: absolute; top: 40%; left: 5%; } #about
+.logo2 { position: absolute; top: 40%; left: 50%; } /* contact */ #contact {
+height: 600px; background: url(../img/contact-bg.jpg) no-repeat; height: 700px;
+background-position: center; position: relative; } #contact h1 { position:
+absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); font-size:
+35px; font-style: italic; font-weight: bold; color: #ccc; line-height: 1;
+text-align: center; } #contact .contact-logo2 { position: absolute; top: 35%;
+left: 50%; transform: translate(-50%, -50%); font-size: 15px; font-style:
+italic; font-weight: bold; color: #ccc; line-height: 1; text-align: center; }
+#contact h2 { position: absolute; top: 50%; left: 50%; transform:
+translate(-50%, -50%); font-size: 25px; font-style: italic; font-weight: bold;
+color: #ccc; line-height: 1; text-align: center; } #contact .contact-text {
+position: absolute; top: 57%; left: 50%; transform: translate(-50%, -50%);
+font-size: 15px; font-weight: bold; color: #ccc; line-height: 1.5; } #contact
+.link { padding: 5px 20px; /* 上下に5px、左右に20px */ font-size: 14px; color:
+white; text-decoration: none; /* テキストのスタイルを消す */ cursor: pointer;
+border: 1px white solid; /* 境界線を引く */ border-radius: 3px; /*
+要素の角を丸くする */ transition: 0.4s ease; /* スタイルが変化する時間 */ }
+#contact .link:hover { color: white; background: white; } #contact .link {
+position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%);
+font-size: 15px; font-weight: bold; line-height: 1; } /* footer */ #footer {
+height: 200px; background: black no-repeat; } .footer-logo { font-size: 20px;
+font-weight: bold; margin-left: 35px; color: #f2f2f2; line-height: 70px; }
+.footer-nav { font-size: 20px; font-weight: bold; text-align: right; color:
+#f2f2f2; line-height: 70px; } #footer p { color: #ccc; line-height: 1;
+text-align: center; } #footer small { height: 80px; text-align: left;
+line-height: 80px; } #footer li { display: inline-block; color: white;
+margin-right: 35px; font-size: 16px; text-align: center; }
